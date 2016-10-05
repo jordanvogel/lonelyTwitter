@@ -30,6 +30,9 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+/**
+ * The type Lonely twitter activity.
+ */
 public class LonelyTwitterActivity extends Activity {
 
 	private static final String FILENAME = "file.sav";
@@ -151,6 +154,8 @@ public class LonelyTwitterActivity extends Activity {
 	/**
 	 * ATTENTION: This was auto-generated to implement the App Indexing API.
 	 * See https://g.co/AppIndexing/AndroidStudio for more information.
+	 *
+	 * @return the index api action
 	 */
 	public Action getIndexApiAction() {
 		Thing object = new Thing.Builder()
